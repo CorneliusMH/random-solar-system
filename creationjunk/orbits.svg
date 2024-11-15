@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" viewBox="0 0 410 410" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<defs>
+<clipPath id="TextBounds">
+<rect height="75" transform="matrix(1 -0 -0 1 0 -12.7)" width="410" x="0" y="12.7"/>
+</clipPath>
+<clipPath id="TextBounds_2">
+<rect height="75" transform="matrix(1 -0 -0 1 0.22583 -54.0235)" width="410" x="-0.22583" y="54.0235"/>
+</clipPath>
+</defs>
+
+<image href="isusin-06-third-quarter.svg" x="30" y="55" width="140" height="140" ></image>
+<image href="sharaev-05-waning-gibbous.svg" x="235.5" y="55" width="140" height="140" ></image>
+
+<text fill="#cf5252" font-family="AveriaSerifLibre-Bold" font-size="48" opacity="1" text-anchor="middle" width="410" x="0" y="0">
+<tspan  x="205" y="300">Chionon 1</tspan>
+<tspan  font-size="24" x="205" dy="30">Happy New Year!</tspan>
+</text>
+
+<text fill="#cf5252" font-family="AveriaSerifLibre-Bold" font-size="48" opacity="1" text-anchor="start" width="410" x="10" y="0">
+<tspan  x="10" y="50">Isusin</tspan>
+</text>
+<text fill="#cf5252" font-family="AveriaSerifLibre-Bold" font-size="48" opacity="1" text-anchor="end" width="40" x="400" y="50">Sharaev</text>
+
+<text fill="#cf5252" font-family="AveriaSerifLibre-Bold" font-size="24" opacity="1" text-anchor="start" width="410" x="0" y="0">
+<tspan  x="20" y="220">Full in 10 days</tspan>
+<tspan  x="20" dy="25">New in 4 days</tspan>
+<tspan  x="230" y="220">Full in 21 days</tspan>
+<tspan  x="230" dy="25">New in 9 days </tspan>
+
+</text>
+<text fill="#ffffff" font-family="AveriaSerifLibre-Bold" stroke="#000000"
+    stroke-width="1px" font-size="30" opacity="1" text-anchor="middle" width="410" x="0" y="0">
+
+</text>
+
+</svg>

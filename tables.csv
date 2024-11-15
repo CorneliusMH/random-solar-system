@@ -1,0 +1,147 @@
+,STEP ONE: Type of System,Type of System
+95,0,Normal System
+5,96,"Special System (roll Special System Table, STEP 1.1)"
+,STEP 1.1: Special System Table
+20,0,"Fixed System (No orbits, bodies are locked in place)"
+10,21,Random Movement (bodies move and orbit randomly)
+10,31,"Semi-Random Movement (May be a pattern, but not solid orbits)"
+30,41,Single Planet (Roll no further)
+25,71,Void
+5,96,Multiple Primary System (ie multiple points to orbit around. like a binary star system)
+,STEP TWO: Primary Type,Primary Type
+70,0,Sun (Fire Body)
+25,71,"Planet (Roll on Planet Type, STEP 2.1)"
+4,96,"No Primary, planets orbit an empty spot at the center."
+1,100,"Portal to another Plane (roll on Portal Table, STEP 2.2)"
+,STEP 2.1: Planet Type,Planet Type
+80,0,Earth
+10,81,Air
+10,91,Water
+,STEP 2.2: Portal,Portal
+30,0,Outer Plane
+20,31,Elemental Plane of Fire
+10,51,Elemental Plane of Earth
+10,61,Elemental Plane of Water
+10,71,Elemental Plane of Air
+10,81,Positive Energy Plane
+10,91,Negative Energy Plane
+,STEP THREE: Number of Planets,Number of Planets
+5,0,1
+5,6,2
+5,11,3
+5,16,4
+10,21,5
+15,31,6
+10,46,7
+10,56,8
+10,66,9
+10,76,10
+5,86,1d20
+10,91,"No planets, entire system is small planetoids, debris, etc. (Do not roll again)"
+,STEP FOUR: Planetary Movement,Planetary Movement
+95,0,"Planets orbit a central point, as expected."
+5,96,"Planets are moved or carried in an unusual manner: the backs of starbeasts, giant ships that carry them across, etc. be creative."
+,STEP FIVE: Planetary Motion,Planetary Motion
+10,0,"No movement, planets are fixed in place."
+5,11,"Random movement within the system, no predefined orbits."
+35,16,Planets move clockwise in orbit.
+40,51,Planets move counter-clockwise in orbit.
+10,91,Each planet moves independently. Roll on Special Motion Table (STEP 5.1) individually for each planet.
+,STEP 5.1: Special Motion Table,Special Motion Table
+50,0,Clockwise orbit.
+40,51,Counterclockwise orbit.
+10,91,Fixed in place.
+,STEP SIX: Planet Type,Planet Type
+40,0,Earth
+20,41,Fire
+20,61,Air
+19,81,Water
+1,100,Liveworld
+,STEP 6.1: Fire
+2,0,A
+3,3,B
+5,6,C
+10,11,D
+15,21,E
+15,36,F
+20,51,G
+15,71,H
+10,86,I
+5,96,J
+,STEP 6.1: Air
+2,0,A
+3,3,B
+5,6,C
+10,11,D
+15,21,E
+15,36,F
+20,51,G
+15,71,H
+10,86,I
+5,96,J
+,STEP 6.1: Earth
+5,0,A
+5,6,B
+10,11,C
+20,21,D
+20,41,E
+20,61,F
+10,81,G
+10,91,H
+,STEP 6.1: Water
+5,0,A
+5,6,B
+10,11,C
+20,21,D
+20,41,E
+20,61,F
+10,81,G
+10,91,H
+,STEP 6.1: Liveworld
+5,0,A
+5,6,B
+10,11,C
+20,21,D
+20,41,E
+20,61,F
+10,81,G
+10,91,H
+,STEP 6.2: Shape
+5,0,Amorphous
+10,6,Belt
+5,16,Cluster
+45,21,Sphere
+5,66,Cube
+20,71,Flatworld
+5,91,Elliptical
+4,96,Regular Polygon (like any dice)
+1,100,Irregular Shape (go nuts)
+,STEP 6.3: Goodies (Optional)
+10,0,"Single moon*. Roll again, ignoring a second result of 01-10"
+10,11,1d4 moons*
+5,21,"1d4 moons*, roll again on this table."
+10,26,Cluster of asteroids
+10,36,Ring (earth)
+10,46,Ring (fire)
+10,56,Ring (water/ice)
+10,66,"Planet is hotter than normal (deserts, tropical rainforests, swamps, etc)"
+10,76,Planet is colder than normal (Ice Age)
+10,86,"Vacuum (Planet lacks an atmosphere entirely. If rolled for an Air Body, the planet is destroyed or, perhaps, never existed)"
+4,96,"Civilization - World Empire (A single empire has total control over the world. May be Spelljamming capable, may not be)"
+1,100,Roll twice on this table.
+,Moons can be at most 1 Size Category smaller than their host planet. Size A planets have Size A moons,"* = Roll planet type for each moon, optionally roll Goodies again, ignoring any result that gives you moons"
+,STEP SEVEN: Planetary Location Assignment,Planetary Location Assignment
+,Start from the primary.,Roll 1d6 for a planet. This is how many days at Spelljamming speed the planet is from the primary.
+,Start from the first placed body.,Roll 1d6. This is how many days at Spelljamming speed the next body is from the first one.
+,Repeat the above for each body until all bodies are placed.,"The Astral Sea begins at 1.5 or 2 times the distance from the Primary to the furthest body in the system, DM's choice"
+,REFERENCE: Planet Size
+A,0,10,Minuteman Bike Path,A
+B,10,100,Boston > Springfield,B
+C,100,1000,Ceres,C
+D,1000,4000,Moon,D
+E,4000,10000,Earth,E
+F,10000,40000,Neptune,F
+G,40000,100000,Jupiter,G
+H,100000,1000000,Sun,H
+I,1000000,10000000,Vega,I
+J,10000000,1000000000,VY Canis Majoris,J

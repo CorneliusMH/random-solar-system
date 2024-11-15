@@ -1,0 +1,438 @@
+{
+   "REFERENCE: Planet Size" : {
+      "A" : {
+         "Real World Analogue" : "Minuteman Bike Path",
+         "max" : 10,
+         "min" : 0
+      },
+      "B" : {
+         "Real World Analogue" : "Boston > Springfield",
+         "max" : 100,
+         "min" : 10
+      },
+      "C" : {
+         "Real World Analogue" : "Ceres",
+         "max" : 1000,
+         "min" : 100
+      },
+      "D" : {
+         "Real World Analogue" : "Moon",
+         "max" : 4000,
+         "min" : 1000
+      },
+      "E" : {
+         "Real World Analogue" : "Earth",
+         "max" : 10000,
+         "min" : 4000
+      },
+      "F" : {
+         "Real World Analogue" : "Neptune",
+         "max" : 40000,
+         "min" : 10000
+      },
+      "G" : {
+         "Real World Analogue" : "Jupiter",
+         "max" : 100000,
+         "min" : 40000
+      },
+      "H" : {
+         "Real World Analogue" : "Sun",
+         "max" : 1000000,
+         "min" : 100000
+      },
+      "I" : {
+         "Real World Analogue" : "Vega",
+         "max" : 10000000,
+         "min" : 1000000
+      },
+      "J" : {
+         "Real World Analogue" : "VY Canis Majoris",
+         "max" : 1000000000,
+         "min" : 10000000
+      }
+   },
+   "STEP 1.1: Special System Table" : {
+      "result" : [
+         "Fixed System (No orbits, bodies are locked in place)",
+         "Random Movement (bodies move and orbit randomly)",
+         "Semi-Random Movement (May be a pattern, but not solid orbits)",
+         "Single Planet (Roll no further)",
+         "Void",
+         "Multiple Primary System (ie multiple points to orbit around. like a binary star system)"
+      ],
+      "weight" : [
+         20,
+         10,
+         10,
+         30,
+         25,
+         5
+      ]
+   },
+   "STEP 2.1: Planet Type" : {
+      "result" : [
+         "Earth",
+         "Air",
+         "Water"
+      ],
+      "weight" : [
+         80,
+         10,
+         10
+      ]
+   },
+   "STEP 2.2: Portal" : {
+      "result" : [
+         "Outer Plane",
+         "Elemental Plane of Fire",
+         "Elemental Plane of Earth",
+         "Elemental Plane of Water",
+         "Elemental Plane of Air",
+         "Positive Energy Plane",
+         "Negative Energy Plane"
+      ],
+      "weight" : [
+         30,
+         20,
+         10,
+         10,
+         10,
+         10,
+         10
+      ]
+   },
+   "STEP 5.1: Special Motion Table" : {
+      "result" : [
+         "Clockwise orbit",
+         "Counter-clockwise orbit",
+         "Fixed in place."
+      ],
+      "weight" : [
+         50,
+         40,
+         10
+      ]
+   },
+   "STEP 6.1: Air" : {
+      "result" : [
+         "A",
+         "B",
+         "C",
+         "D",
+         "E",
+         "F",
+         "G",
+         "H",
+         "I",
+         "J"
+      ],
+      "weight" : [
+         2,
+         3,
+         5,
+         10,
+         15,
+         15,
+         20,
+         15,
+         10,
+         5
+      ]
+   },
+   "STEP 6.1: Earth" : {
+      "result" : [
+         "A",
+         "B",
+         "C",
+         "D",
+         "E",
+         "F",
+         "G",
+         "H"
+      ],
+      "weight" : [
+         5,
+         5,
+         10,
+         20,
+         20,
+         20,
+         10,
+         10
+      ]
+   },
+   "STEP 6.1: Fire" : {
+      "result" : [
+         "A",
+         "B",
+         "C",
+         "D",
+         "E",
+         "F",
+         "G",
+         "H",
+         "I",
+         "J"
+      ],
+      "weight" : [
+         2,
+         3,
+         5,
+         10,
+         15,
+         15,
+         20,
+         15,
+         10,
+         5
+      ]
+   },
+   "STEP 6.1: Liveworld" : {
+      "result" : [
+         "A",
+         "B",
+         "C",
+         "D",
+         "E",
+         "F",
+         "G",
+         "H"
+      ],
+      "weight" : [
+         5,
+         5,
+         10,
+         20,
+         20,
+         20,
+         10,
+         10
+      ]
+   },
+   "STEP 6.1: Water" : {
+      "result" : [
+         "A",
+         "B",
+         "C",
+         "D",
+         "E",
+         "F",
+         "G",
+         "H"
+      ],
+      "weight" : [
+         5,
+         5,
+         10,
+         20,
+         20,
+         20,
+         10,
+         10
+      ]
+   },
+   "STEP 6.2: Shape" : {
+      "result" : [
+         "Amorphous",
+         "Belt",
+         "Cluster",
+         "Sphere",
+         "Cube",
+         "Flatworld",
+         "Elliptical",
+         "Platonic Solid",
+         "Irregular Shape (go nuts)"
+      ],
+      "weight" : [
+         5,
+         10,
+         5,
+         45,
+         5,
+         20,
+         5,
+         4,
+         1
+      ]
+   },
+   "STEP 6.3: Goodies (Optional)" : {
+      "result" : [
+         "Single moon*. Roll again, ignoring a second result of 01-10",
+         "1d4 moons*",
+         "1d4 moons*. Roll again on this table.",
+         "Cluster of asteroids",
+         "Ring (earth)",
+         "Ring (fire)",
+         "Ring (water/ice)",
+         "Planet is hotter than normal (deserts, tropical rainforests, swamps, etc)",
+         "Planet is colder than normal (Ice Age)",
+         "Vacuum (Planet lacks an atmosphere entirely. If rolled for an Air Body, the planet is destroyed or, perhaps, never existed)",
+         "Civilization - World Empire (A single empire has total control over the world. May be Spelljamming capable, may not be)",
+         "Roll twice on this table.",
+         "* = Roll planet type for each moon, optionally roll Goodies again, ignoring any result that gives you moons"
+      ],
+      "weight" : [
+         10,
+         10,
+         5,
+         10,
+         10,
+         10,
+         10,
+         10,
+         10,
+         10,
+         4,
+         1,
+         1
+      ]
+   },
+   "STEP FIVE: Planetary Motion" : {
+      "result" : [
+         "No movement, planets are fixed in place.",
+         "Random movement within the system, no predefined orbits.",
+         "Clockwise orbit",
+         "Counter-clockwise orbit",
+         "Each planet moves independently. Roll on Special Motion Table (STEP 5.1) individually for each planet."
+      ],
+      "weight" : [
+         10,
+         5,
+         35,
+         40,
+         10
+      ]
+   },
+   "STEP FOUR: Planetary Movement" : {
+      "result" : [
+         "Planets orbit a central point, as expected.",
+         "Planets are moved or carried in an unusual manner: the backs of starbeasts, giant ships that carry them across, etc. be creative."
+      ],
+      "weight" : [
+         95,
+         5
+      ]
+   },
+   "STEP ONE: Type of System" : {
+      "result" : [
+         "Normal System",
+         "Special System"
+      ],
+      "weight" : [
+         95,
+         5
+      ]
+   },
+   "STEP SEVEN: Planetary Location Assignment" : {
+         "A" : {
+            "Real World Analogue" : "Minuteman Bike Path",
+            "max" : 10,
+            "min" : 0
+         },
+         "B" : {
+            "Real World Analogue" : "Boston > Springfield",
+            "max" : 100,
+            "min" : 10
+         },
+         "C" : {
+            "Real World Analogue" : "Ceres",
+            "max" : 1000,
+            "min" : 100
+         },
+         "D" : {
+            "Real World Analogue" : "Moon",
+            "max" : 4000,
+            "min" : 1000
+         },
+         "E" : {
+            "Real World Analogue" : "Earth",
+            "max" : 10000,
+            "min" : 4000
+         },
+         "F" : {
+            "Real World Analogue" : "Neptune",
+            "max" : 40000,
+            "min" : 10000
+         },
+         "G" : {
+            "Real World Analogue" : "Jupiter",
+            "max" : 100000,
+            "min" : 40000
+         },
+         "H" : {
+            "Real World Analogue" : "Sun",
+            "max" : 1000000,
+            "min" : 100000
+         },
+         "I" : {
+            "Real World Analogue" : "Vega",
+            "max" : 10000000,
+            "min" : 1000000
+         },
+         "J" : {
+            "Real World Analogue" : "VY Canis Majoris",
+            "max" : 1000000000,
+            "min" : 10000000
+         }
+   },
+   "STEP SIX: Planet Type" : {
+      "result" : [
+         "Earth",
+         "Fire",
+         "Air",
+         "Water",
+         "Liveworld"
+      ],
+      "weight" : [
+         40,
+         20,
+         20,
+         19,
+         1
+      ]
+   },
+   "STEP THREE: Number of Planets" : {
+      "result" : [
+         1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8,
+         9,
+         10,
+         "1d20",
+         "No planets, entire system is small planetoids, debris, etc. (Do not roll again)"
+      ],
+      "weight" : [
+         5,
+         5,
+         5,
+         5,
+         10,
+         15,
+         10,
+         10,
+         10,
+         10,
+         5,
+         10
+      ]
+   },
+   "STEP TWO: Primary Type" : {
+      "result" : [
+         "Sun (Fire Body)",
+         "Planet (Roll on Planet Type, STEP 2.1)",
+         "No Primary, planets orbit an empty spot at the center.",
+         "Portal to another Plane (roll on Portal Table, STEP 2.2)"
+      ],
+      "weight" : [
+         70,
+         25,
+         4,
+         1
+      ]
+   }
+}
